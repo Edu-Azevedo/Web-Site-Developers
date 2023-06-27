@@ -1,0 +1,36 @@
+*,
+*:after,
+*:before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import "partials/colors";
+@import "partials/layout";
+@import "partials/typography";
+@import "partials/buttons";
+@import "partials/menu";
+@import "partials/spacing";
+@import "partials/tela-01";
+@import "partials/tela-02";
+@import "partials/tela-03";
+@import "partials/tela-04";
+
+body{
+
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+  scroll-behavior: smooth;
+
+  background-color: $black-fundo;  
+}
+
+
+//mapeamento do site
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background-color: $pink;
+}
